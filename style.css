@@ -9,12 +9,12 @@
   background-color: rgb(17, 0, 33);
   color: white;
   margin: 0;
-  padding: 60px;
+  padding: 40px 20px 20vh;
   box-sizing: border-box;
 }
 
 .message {
-  font-size: 36px;
+  font-size: 32px;
   text-align: center;
   width: 100%;
   max-width: 600px;
