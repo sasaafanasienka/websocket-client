@@ -77,17 +77,17 @@
   background-size: cover;
 }
 .btn--1 {
-  background: url('./assets/paper.png');
+  /* background: url('./assets/paper.png'); */
   background-position: 50% 50%;
   background-size: cover;
 }
 .btn--2 {
-  background: url('./assets/scissors.png');
+  /* background: url('./assets/scissors.png'); */
   background-position: 50% 50%;
   background-size: cover;
 }
 .btn--3 {
-  background: url('./assets/stone.png');
+  /* background: url('./assets/stone.png'); */
   background-position: 50% 50%;
   background-size: cover;
 }
