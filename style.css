@@ -1,0 +1,82 @@
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  flex-flow: column;
+  row-gap: 10px;
+  font-family: 'Silkscreen', cursive;
+  background-color: rgb(17, 0, 33);
+  color: white;
+  margin: 0;
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+.message {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  flex-grow: 1;
+  margin-top: 40px;
+  transition: all 0.3s ease-in-out;
+}
+
+.message.js--win {
+  color: green;
+}
+.message.js--lose {
+  color: red;
+}
+.message.js--draw {
+  color: yellow;
+}
+
+.name {
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.clients {
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  opacity: .8;
+}
+
+.score {
+  font-size: 32px;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  opacity: .8;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 10px;
+}
+
+.btn {
+  width: 90px;
+  height: 90px;
+  border-radius: 500px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn.js--selected {
+  outline: 5px solid goldenrod;
+}
+
+.btn:hover {
+  background-color: goldenrod;
+  color: white;
+}
