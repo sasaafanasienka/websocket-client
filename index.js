@@ -2,7 +2,7 @@ class Game {
 	constructor() {
 		// const url = 'ws://websocket-server-y5p7.onrender.com';
 		// this.url = 'ws://localhost:8080';
-		this.url = 'ws://tan-tungsten-brisket.glitch.me';
+		this.url = 'wss://tan-tungsten-brisket.glitch.me';
 		this.socket = null;
 		this.message = document.querySelector('.message');
 		this.name = document.querySelector('.name');
