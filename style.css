@@ -11,6 +11,9 @@
   margin: 0;
   padding: 40px 20px 20vh;
   box-sizing: border-box;
+  background: url('./assets/bckgr.png');
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 .message {
@@ -58,7 +61,7 @@
 
 .buttons {
   display: flex;
-  column-gap: 10px;
+  column-gap: 30px;
 }
 
 .btn {
@@ -70,6 +73,23 @@
   cursor: pointer;
   font-weight: 700;
   transition: all 0.3s ease-in-out;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.btn--1 {
+  background: url('./assets/paper.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.btn--2 {
+  background: url('./assets/scissors.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.btn--3 {
+  background: url('./assets/stone.png');
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 .btn.js--selected {
